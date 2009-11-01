@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSGame.Web", "JSGame.Web\JSGame.Web.csproj", "{4BBEFF86-8E81-4847-96D9-0C5CEBC44759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iStone.Util", "iStone.Util\iStone.Util.csproj", "{91846646-D2DE-44DE-992E-4490508A5A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSGame.Convert", "JSGame.Convert\JSGame.Convert.csproj", "{3665BA19-0564-40A3-9C50-5DCCEAFEDDA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BBEFF86-8E81-4847-96D9-0C5CEBC44759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBEFF86-8E81-4847-96D9-0C5CEBC44759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBEFF86-8E81-4847-96D9-0C5CEBC44759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBEFF86-8E81-4847-96D9-0C5CEBC44759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91846646-D2DE-44DE-992E-4490508A5A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91846646-D2DE-44DE-992E-4490508A5A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91846646-D2DE-44DE-992E-4490508A5A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91846646-D2DE-44DE-992E-4490508A5A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3665BA19-0564-40A3-9C50-5DCCEAFEDDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3665BA19-0564-40A3-9C50-5DCCEAFEDDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3665BA19-0564-40A3-9C50-5DCCEAFEDDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3665BA19-0564-40A3-9C50-5DCCEAFEDDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

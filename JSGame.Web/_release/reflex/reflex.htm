@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>反应速度 - 小石头网页游戏</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="小石头网页游戏,小游戏,网页游戏,Javascript游戏,Ajax游戏,在线游戏,在线网页游戏,单机版游戏,免费游戏。作者：zlei7#mail.ustc.edu.cn 主页：http://game.yatrack.cn/default.htm">
+    <meta name="description" content="谨以此程序作为送给俺家小师的生日礼物，祝愿小师生日快乐!学习进步!天天好心情!（2007-09-01） 小石头网页游戏,小游戏,网页游戏,Javascript游戏,Ajax游戏,在线游戏,在线网页游戏,单机版游戏,免费游戏。作者：zlei7#mail.ustc.edu.cn 主页：http://game.yatrack.cn/default.htm">
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="./css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="./css/blueprint/print.css" type="text/css" media="print">
+    <!--[if IE]><link rel="stylesheet" href="./css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="./css/blueprint/plugins.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen, projection">
+    <link href="./css/reflex.css" type="text/css" rel="stylesheet" />
+
+    <script src="./js/lib/mootools.js" type="text/javascript"></script>
+
+    <script src="./js/reflex.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="column span-24">
+            <h2 class="bottom">
+                反应速度
+            </h2>
+        </div>
+        <div class="column span-24">
+            <div class="left" style="padding-left: 20px;">
+                <i class="gray">测试反应速度。</i>
+            </div>
+            <div class="right">
+            </div>
+        </div>
+        <div class="menubar">
+        </div>
+        <div class="column span-5">
+            <h6>
+                游戏控制</h6>
+            <div style="padding-left: 5px; padding-right: 5px;">
+                <div class="group">
+                    <h4>
+                        控制</h4>
+                    <div id="leftcaozuo" class="align-center">
+                        
+        <a href="#" class="button positive" id="start">开始游戏</a>
+		<a href="#" class="button disabled" id="pause">暂停游戏</a>
+		<br /><br />
+		<a href="#" class="button disabled" id="stop">终止游戏</a>
+		<br /><br />
+    
+                    </div>
+                </div>
+                <div class="group">
+                    <h4>
+                        设置</h4>
+                    <div id="leftshezhi" class="align-center" style="padding-left: 10px;">
+                        
+        <select id="level">
+            <option value="1" />入门
+            <option value="2" selected="selected" />简单
+            <option value="3" />中等
+            <option value="4" />困难
+            <option value="5" />专家
+        </select>
+    
+                    </div>
+                    <br />
+                </div>
+                <div class="group">
+                    <h4>
+                        状态</h4>
+                    <div id="leftzhuangtai" class="align-center" style="padding-left: 10px;">
+                        
+        时间：<span id="elapsedTime">-</span><br />
+        点中：<span id="clickCount">-</span><br />
+        不中：<span id="missCount">-</span>
+    
+                    </div>
+                </div>
+                <br />
+                <br />
+                <a href="./reflex.zip"><img alt="download" class="reset-margin" src="./img/download.gif" />单机版下载</a><br /><a href="../default.htm"><img alt="home" class="reset-margin" src="./img/home.gif" />小石头网页游戏</a>
+            </div>
+        </div>
+        <div class="column span-19 last">
+            <h6>
+                反应速度</h6>
+            <div id="main" align="center" style="width: 100%; height: 480px;">
+                
+    
+
+            </div>
+        </div>
+        <div class="menubar">
+        </div>
+        <div class="column span-24">
+            <i class="gray">&copy;反应速度&nbsp;&nbsp;版本：v2.0&nbsp;&nbsp;验证：<a href="http://validator.w3.org/check?uri=referer">XHTML</a>&amp;<a href="http://jigsaw.w3.org/css-validator/">CSS</a></i>
+        </div>
+    </div>
+</body>
+</html>

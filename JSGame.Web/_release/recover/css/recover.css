@@ -1,0 +1,25 @@
+
+
+#gameTable td
+{
+	padding:0;
+	margin:0;
+	border:0px;
+}
+
+#gameTable .clip
+{
+	cursor:pointer;
+}
+
+#gameTable .alpha
+{
+	opacity:.3;
+	filter:alpha(opacity=30);
+}
+
+#gameTable .empty
+{
+	
+}
+
