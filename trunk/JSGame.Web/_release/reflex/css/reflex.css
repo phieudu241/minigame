@@ -1,0 +1,25 @@
+
+#gameTable td
+{
+	cursor:pointer;
+	width:40px;
+  	height:40px;
+	border-right:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+	border-left:1px solid #ffffff;
+	border-top:1px solid #ffffff;
+	background-color:#F7E9D4;
+	text-align:center;
+	padding:0;
+}
+
+#gameTable .filled
+{
+	background-color:#EC870E;
+}
+
+#gameTable .active
+{
+	background-color:green;
+}
+

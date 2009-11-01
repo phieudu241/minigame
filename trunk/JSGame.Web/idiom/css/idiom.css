@@ -1,0 +1,52 @@
+
+
+#gameTable td
+{
+	cursor:pointer;
+	width:45px;
+  	height:45px;
+	font-size:16px;
+	font-weight:normal;
+	text-align:center;
+	border-right:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+	border-left:1px solid #ffffff;
+	border-top:1px solid #ffffff;
+	background-color:#F7E9D4;
+	vertical-align:middle;
+	padding:0;
+}
+
+#gameTable td.active
+{
+	font-weight:bold;
+	color:#FFFF33;
+	background-color:#EC870E;
+}
+
+#gameTable td.fixed
+{
+	color:#bbbbbb;
+	background-color:#ffffff;
+}
+
+/*border-right-reset*/
+#gameTable td.brr
+{
+	border-right:0px solid #ffffff;
+}
+
+#gameTable td.blr
+{
+	border-left:0px solid #ffffff;
+}
+
+#gameTable td.btr
+{
+	border-top:0px solid #ffffff;
+}
+
+#gameTable td.bbr
+{
+	border-bottom:0px solid #ffffff;
+}

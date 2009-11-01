@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>pintu</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="./css/pintu.css" type="text/css" rel="stylesheet" />
+
+    <script src="../js/lib/mootools.js" type="text/javascript"></script>
+    <script src="../js/game.js" type="text/javascript"></script>
+    <script src="./js/pintu.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<div id="gameTitle">记忆拼图</div>
+	<div id="gameVersion">2.0</div>
+	<div id="gameDescription">凭记忆找出相同的图片。</div>
+    <div id="leftcaozuo">
+        <a id="start" class="button positive" href="#">开始游戏</a>
+		<a id="pause" class="button disabled" href="#">暂停游戏</a>
+		<br /><br />
+		<a id="stop" class="button disabled" href="#">终止游戏</a>
+		<br /><br />
+    </div>
+    <div id="leftshezhi">
+        <select id="level">
+            <option value="1">入门</option>
+            <option selected="selected" value="2">简单</option>
+            <option value="3">中等</option>
+            <option value="4">困难</option>
+            <option value="5">专家</option>
+        </select>
+        <br />
+        <select id="baseImage">
+            <option selected="selected" value="1">十二生肖</option>
+            <option value="2">十二星座</option>
+        </select>
+    </div>
+    <div id="leftzhuangtai">
+        时间：<span id="elapsedTime">-</span><br />
+        剩余：<span id="leftCount">-</span>
+    </div>
+    <div id="main">
+    </div>
+</body>
+</html>

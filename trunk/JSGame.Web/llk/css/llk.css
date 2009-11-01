@@ -1,0 +1,11 @@
+
+
+#gameTable td
+{
+	cursor:pointer;
+	width:39px;
+	height:49px;
+	padding:0px;
+	border:0px;
+}
+
